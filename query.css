@@ -1,0 +1,259 @@
+/****************************************************/
+                 /** media query **/
+
+ /****************************************************/
+
+
+ @media (min-width:450px){
+    .highlighted-img{
+      
+            top:-30rem;
+            max-width: 90%;
+          
+             }
+ }
+ @media (min-width:600px){
+
+
+   footer .container{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+   }
+        
+         .footer-logo{
+            margin-inline:0;
+        }
+
+}
+/************************************************/
+/*************900******************/
+@media (min-width:900px){
+    .container{
+        width:80%;
+ 
+    }
+
+    .frow{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+       
+    }
+    .sub-heading{
+      display: block;
+      text-align: left;
+        max-width:75rem;
+    }
+    /*** nav ***/
+    header{
+        align-items: flex-start;
+    }
+    .btn-mobile-nav{
+        display: none;
+    }
+
+    .nav{
+        display: block;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width:85%;
+    }
+    .nav-btns,
+.mian-nav-list{
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.nested-list{
+    background-color: white;
+    border-radius: 1rem;
+    padding:1rem;
+   
+}
+
+.nav-btns{
+    padding:0;
+}
+.nav-btn,
+.nav .list-item a:link,
+.nav .list-item a:visited
+{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding:0.6rem 1.2rem;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+
+
+}
+.nested-list a:link,
+.nested-list a:visited{
+    color:var(--cta-clr) !important;
+}
+
+.icon-arrow{
+    transition: all 0.3s;
+}
+.icon-arrow-active{
+    transform: rotate(180deg);
+}
+    /***** hero ***/
+    .btns{
+        width:40%;
+        margin-inline: auto;
+    }
+    .sec-about .frow{
+        flex-direction: row-reverse;
+    
+    }
+
+    .sec-hero{
+       
+        background-image:url("images/bg-pattern-intro-desktop.svg"), linear-gradient(to top right , var(--gradient-clr),var(--gradient-clr-light));
+     background-size: 100%;
+     background-repeat: no-repeat;
+    
+         }
+
+         .sec-btn:link{
+            margin-top:0;
+         }
+         /*** highlighted ***/
+    .sec-highlighted{
+        padding:4rem 1rem;
+    }
+    .highlighted-img-box{
+        background-image: url("images/bg-pattern-circles.svg");
+        background-position:bottom;
+        background-size: cover;
+        height:45vh;
+   
+        margin-top:-4rem;
+        margin-left:-11rem;
+        width:50rem;
+     }
+     .highlighted-img{
+        max-width: 45rem;
+        top:-24rem;
+     }
+    
+ 
+    .highlighted-content{
+        margin-left:10rem;
+    }
+    .highlighted-content p{
+        text-align: left;
+        max-width: 50rem;
+    }
+    /***  about ***/
+    .sec-about{
+        align-items: center;
+    }
+    .about-img-box{
+        width:60rem;
+       
+        margin-right:-37rem;
+        margin-top:-7rem;
+    }
+   
+   
+    .about-content{
+   
+        width:60%;
+        margin-top:4rem;
+    }
+    
+    .about-content p,
+    .features-content p{ 
+
+        max-width: 65rem;
+        text-align: left;
+    }
+ 
+    /*** features **/
+    .features-content{
+        width:70rem;
+      padding-left:10rem;
+    }
+  
+    .feature-img-box{
+      
+        width:70rem;
+        
+
+       
+        margin-left:-37rem;
+    }
+    
+    
+    .feature-img{
+        margin-right:0;
+        width:100%;
+       
+      
+    }
+    
+
+    /***** footer ***/
+    footer{
+        padding-top:2rem;
+    }
+}
+
+/************************************************/
+/*************900******************/
+@media (min-width:1200px){
+    html{
+        font-size: 70%;
+    }
+    .container{
+        width:80%;
+    }
+   
+
+     /*** features & about ***/
+   
+     .about-img-box{
+     
+        width:66rem;
+       
+        margin-right:-35rem;
+        margin-top:-7rem;
+    }
+   
+    .about-content{
+   
+        width:60%;
+        max-width: 60rem;
+       
+    }
+    
+    .about-content p,
+    .features-content p{ 
+
+        max-width: 65rem;
+        text-align: left;
+    }
+ 
+    /*** features **/
+    .features-content{
+        width:70rem;
+      padding-left:10rem;
+    }
+    .feature-img-box{
+   
+        width:60rem;
+        
+
+       
+        margin-left:-30rem;
+    }
+  
+ 
+
+}
