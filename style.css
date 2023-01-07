@@ -200,7 +200,7 @@ img{
  /****************************************************/
 .sec-hero{
 margin-top:0;
-background-image:url("images/bg-pattern-intro-mobile.svg"), linear-gradient(to bottom right,var(--gradient-clr-light),var(--gradient-clr));
+background-image:url("images/bg-pattern-intro-mobile.svg"),  linear-gradient(180deg, var(--gradient-clr-light), var(--gradient-clr));
 background-position: center;
 background-size:cover;
 border-bottom-left-radius: var(--border-radius);

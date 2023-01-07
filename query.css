@@ -25,6 +25,15 @@
             margin-inline:0;
         }
 
+        .btns{
+            width:40%;
+            margin-inline: auto;
+        }
+        .sec-btn:link,
+        .sec-btn:visited {
+        
+           margin-top:0rem;
+        }
 }
 /************************************************/
 /*************900******************/
@@ -103,10 +112,7 @@
     transform: rotate(180deg);
 }
     /***** hero ***/
-    .btns{
-        width:40%;
-        margin-inline: auto;
-    }
+
     .sec-about .frow{
         flex-direction: row-reverse;
     
@@ -114,7 +120,7 @@
 
     .sec-hero{
        
-        background-image:url("images/bg-pattern-intro-desktop.svg"), linear-gradient(to top right , var(--gradient-clr),var(--gradient-clr-light));
+        background-image:url("images/bg-pattern-intro-desktop.svg"),  linear-gradient(180deg, var(--gradient-clr-light), var(--gradient-clr));
      background-size: 100%;
      background-repeat: no-repeat;
     
